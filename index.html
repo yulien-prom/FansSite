@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FansWeb Tibia</title>
+    <!--favicon-->
+    <link rel="icon" href="./img/magenews_wb.ico">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.Css">
+    <link rel="stylesheet" href="animate.min.css">
+    <!--font awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     <!--script de revelar-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+   <!--font oswald-->
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay>
+        <source src="theme1.mp3" type="audio/mpeg" >
+    </audio>
+    <div class="container">
+        <nav class="nav-main ">
+            <img src="img/tibia.png" alt="TechNews Logo" class="nav-brand animate__animated animate__fadeInUpBig ">
+            <ul class="nav menu animate__animated animate__flip ">
+                <li>
+                    <a href="#" onclick="return openAccunt()"> Create Account</a>
+                </li>
+                <li>
+                    <a href="#" onclick="return openListMoster()"> News Creatures</a>
+                </li>
+                <li>
+                    <a href="#" onclick="return openListplayer()"> Players Online</a>
+                </li>
+                <li>
+                    <a href="#" onclick="openSupport()"> Support</a>
+                </li>
+                <li>
+                    <a href="#" onclick="return openSpells()">Spells and Potions</a>
+                </li>
+                <li>
+                    <a href="#" onclick="return openDownload()"> To Download</a>
+                </li>
+                <li>
+                    <a href="#" onclick="return openMore()"> More</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="">
+                        <i class="fas fa-search"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr class="rel  animate__animated animate__rotateInUpLeft">
+        <!--showcase-->
+        <header class="showcase ">
+                <h2>Fin de semana de doble EXP/habilidad y doble botín</h2>
+                <p>double XP/skill and a double loot weekend is coming! So sharpen your weapons and stock up your potions, a weekend full of excessive monster slaughtering is waiting for you!</p>
+                <a href="#" class="btn" onclick=" return openReadmore()">Read more <i class="fas fa-angle-double-right"></i></a>
+
+        </header>
+        <!--news card-->
+        <div class="news-cards">
+            <div>
+                <img src="img/ciudadtibia.jpg" alt="news1">
+                <h3>Nuevas ciudades</h3>
+                <p>Aquí puedes ver la lista de todas las casas, pisos o casas gremiales disponibles. Seleccione el mundo del juego de su elección</p>
+                <a href="#" onclick="return  openMoreCiudad()">More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/gramiotibia.jpg" alt="news1">
+                <h3>Gremios</h3>
+                <p>Selecciona el mundo del juego de tu elección para ver la lista de todos los gremios existentes en él.</p>
+                <a href="#" onclick=" return openMoreGremios()">More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/questtibia.jpg" alt="news1">
+                <h3>Nuevas Quest</h3>
+                <p>Los eventos mundiales y las tareas mundiales se pueden lograr si una gran cantidad de jugadores de un mundo de juego trabajan juntos.</p>
+                <a href="#" onclick="return openMorequest()">More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/tibiamoster.jpg" alt="news1">
+                <h3>Nuevos Moster</h3>
+                <p>Fue brutal, y nuestros sueños pronto se convirtieron en pesadillas. Toda nuestra experiencia y habilidad palideció en lo bien que se adaptaron las criaturas</p>
+                <a href="#" onclick="return openMoreMons()">More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+        </div>
+
+        <section class="cards-banner-one">
+            <div class="content">
+             <h2>Lorem, ipsum dolor.</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsa qui praesentium, porro minus quasi amet id quas! Cupiditate, eveniet!</p>
+             <a href="#" class="btn">learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <div class="news-cards">
+            <div>
+                <img src="img/tibiaechizos.jpg" alt="news1">
+                <h3>Nuevos hechizos</h3>
+                <p>Los druidas son maestros de la naturaleza y la magia curativa. A lo largo de la historia, han utilizado sus habilidades y conocimientos en beneficio de todos los humanos</p>
+                <a href="#">More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/banner.jpg" alt="news1">
+                <h3>Acceso a portales</h3>
+                <p>Acceso a Halls of Hope Finca de la Esfinge Negra , Cámara Cósmica , Claro Profanado , Minas de Formorgar , Salas de la Esperanza , Ruinas del Creador Sagrado , Complejo de Templos , Thais .</p>
+                <a href="#">More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/orc.jpg" alt="news1">
+                <h3>Boss De Tibia</h3>
+                <p>En la presente guía encontrarás la ubicación de diversos "Bosses" o también llamados "Jefes" dentro del juego, los cuales nacen de forma aleatoria o por medio de un mensaje que aparece a todos los jugadores dentro del servidor.</p>
+                <a href="#">More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/tibiao.jpg" alt="news1">
+                <h3>Sitios donde lvl Up</h3>
+                <p>Tenemos varias opciones. Realmente puedes subir en cualquier lado a este nivel pero quería hacer unas menciones honorables a unos cuantos respawns que creo que valen muchísimo la pena </p>
+                <a href="#">More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+        </div>
+
+        <section class="cards-banner-two">
+            <div class="content">
+                <h2>Compartir y Hecer missiones con tus amigos!.</h2>
+                <p>Actualmente, existen servidores en los Estados Unidos, Reino Unido y Brasil, pero pueden jugar personas de cualquier lugar del mundo siempre y cuando tenga una conexión a internet y una cuenta en Tibia.</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <section class="social">
+            <p>Follow Fans Site</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f" onclick="return openface()"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-github" onclick="return openGithub()"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin" onclick=" return openlikedin()"></i>
+                </a>
+            </div>
+        </section>
+         
+    </div>
+     <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <i>
+                    <a href="">
+                        <h3>Title one</h3>
+                    </a>
+                </i>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                
+            </ul>
+            <ul>
+                <i>
+                    <a href="">
+                        <h3>Title one</h3>
+                    </a>
+                </i>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                
+            </ul>
+            <ul>
+                <i>
+                    <a href="">
+                        <h3>Title one</h3>
+                    </a>
+                </i>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                
+            </ul>
+            <ul>
+                <i>
+                    <a href="">
+                        <h3>Title one</h3>
+                    </a>
+                </i>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                
+            </ul>
+        </div>
+
+     </div>
+     <footer class="footer">
+        <h3>
+            TechNews copyright
+        </h3>
+     </footer>
+     <script src="main.JS"></script>
+</body>
+</html>
